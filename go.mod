@@ -1,4 +1,4 @@
-module mygit.aphrolime.top/middlewares/zlog
+module github.com/mirrorsge/zlog
 
 go 1.16
 

@@ -3,7 +3,7 @@
 
 
 ## 使用方式
-`go get mygit.aphrolime.top/middlewares/zlog`
+`go get github.com/mirrorsge/zlog`
 
 以一下日志格式作为示范,目前日志的格式为:
 ```json
@@ -19,7 +19,7 @@
 且添加了全局唯一的字段 service，使用 zlog 的方式有两种，分别如下:
 ### 一、返回全局 logger 变量方式
 ```golang
-import "mygit.aphrolime.top/middlewares/zlog"
+import "github.com/mirrorsge/zlog"
 
 // 初始化全局logger
 levelType := InfoLevel
